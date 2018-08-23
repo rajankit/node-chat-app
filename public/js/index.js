@@ -6,10 +6,10 @@ socket.on('connect', function () {
     console.log('Connected to server');
 
     // Create an Event listen by server with Name : createMessage
-    socket.emit('createMessage', {
-        to: 'david',
-        text: 'Hi everything is fine'
-    });
+    // socket.emit('createMessage', {
+    //     to: 'david',
+    //     text: 'Hi everything is fine'
+    // });
 });
 
 socket.on('disconnect', function () {
